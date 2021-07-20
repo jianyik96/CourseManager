@@ -12,7 +12,7 @@ namespace CourseManagerAPI.DBContexts
         public DbSet<Course> Courses { get; set; }
 
         public DbSet<Author> Authors { get; set; }
-
+         
         public DbSet<Country> Countries { get; set; }
 
         public CourseContext()
